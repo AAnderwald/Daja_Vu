@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #c8d9ec;
+}
+
+.header {
+    color:#701c1c;
+    text-align: center;
+}
+
+.enterGuess {
+    letter-spacing: 1px;
+    color: #1b4280;
+    size: 50px;
+}
+
+.guessBox {
+    width: 60px;
+    height: 60px;
+    font-size: large;
+    background-color: #e0ecfa;
+}
+
+.form {
+    text-align: center;
+    padding: 50px;
+}
+.guessSubmit {
+    background: #88BAF3;
+    background-image: -webkit-linear-gradient(top, #88BAF3, #1D50A3);
+    background-image: -moz-linear-gradient(top, #88BAF3, #1D50A3);
+    background-image: -ms-linear-gradient(top, #88BAF3, #1D50A3);
+    background-image: -o-linear-gradient(top, #88BAF3, #1D50A3);
+    background-image: -webkit-gradient(to bottom, #88BAF3, #1D50A3);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 200;
+    padding: 22px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .guessSubmit:hover {
+    background: #3D94F6;
+    border: solid #642078 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }

@@ -34,7 +34,7 @@ var guess = document.getElementById("guessBox").value;
 //random number now with turns and rand.
 
 let rand = Math.floor(Math.random() * 100) + 1;
-var turns = 8;
+var turns = 2;
 
 
 document.getElementById("submitGuess").onclick = function checkNumber(){
@@ -46,20 +46,20 @@ document.getElementById("submitGuess").onclick = function checkNumber(){
             return;
     } else {
         turns--;
-        if (guess < rand){
+        if (guess < rand) {
             alert ("That's too low. You have remaining " + turns);
         } else if (guess > rand) {
             alert ("That's too high. You have remaining " + turns);
         }
     }
+    if (turns==0){
+        alert ("You failed to guess.");
+       }
 }
-if (turns==0){
-    alert ("You failed to guess sadly.");
-    }
   
 
 function startNewGame() {
-    turns = 8;
+    turns = 2;
     num = Math.floor(Math.random() * 100) + 1;
     checkNumber();
     }

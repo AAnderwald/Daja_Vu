@@ -31,7 +31,8 @@ var guess = document.getElementById("guessBox").value;
 }
 */
 
-//random number now with turns and rand.
+
+//random number now with turns and ran using if/ else
 
 let rand = Math.floor(Math.random() * 100) + 1;
 var turns = 2;
@@ -57,10 +58,9 @@ document.getElementById("submitGuess").onclick = function checkNumber(){
        }
 }
   
-
-function startNewGame() {
-    turns = 2;
-    num = Math.floor(Math.random() * 100) + 1;
-    checkNumber();
-    }
-    
+    function startNewGame() {
+        turns = 2;
+        num = Math.floor(Math.random() * 100) + 1;
+        checkNumber();
+        }
+        

@@ -2,16 +2,19 @@ body {
     box-sizing: border-box;
     font-family: 'Merriweather Sans', sans-serif;
     background-color: #c8d9ec;
+    
 }
 
+
 .header {
-    color:#701c1c;
+    color:#f2f4f7;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .enterGuess {
     letter-spacing: 1px;
-    color: #1b4280;
+    color: #f2f4f7;
     size: 50px;
 }
 
